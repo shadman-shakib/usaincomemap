@@ -54,3 +54,5 @@ with col2:
     st.metric("State Median Income (1989, inflation-adjusted)", f"${state_median_1989_value:,.0f}")
 
     st.dataframe(sub, use_container_width=True, height=420)
+
+    #new
